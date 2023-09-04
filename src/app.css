@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* layout css start */
+.mountain-sticker {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #293462;
+    margin:0 auto;
+    margin-bottom:30px;
+  }
+  
+  .mountain-inner{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+  
+  }
+  
+  .mountain {
+    width: 0;
+    height: 0;
+    border-left: 145px solid transparent;
+    border-right: 260px solid transparent;
+    border-bottom: 200px solid #fe5f55;
+    position: relative;
+    top: 76px;
+  }
+          
+  .mountain:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #fe5f55;
+    top: 70px;
+    left: -234px;
+  }
+/* layout css end */
